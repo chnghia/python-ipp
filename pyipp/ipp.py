@@ -223,6 +223,12 @@ class IPP:
 
         return printer
 
+    async def prinf_file(self, filename):
+        # CREATE_JOB
+        # SEND_DOCUMENT
+        # 
+        
+
     async def __aenter__(self) -> "IPP":
         """Async enter."""
         return self
